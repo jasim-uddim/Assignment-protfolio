@@ -1,0 +1,40 @@
+/* * */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 60px;
+}
+.orange {
+  color: orange;
+}
+.flexibl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 130px;
+}
+.half-widht {
+  width: 100%;
+}
+.flexibl img {
+  width: 100%;
+
+  margin-bottom: 15%;
+}
+.link {
+  color: rgb(248, 244, 244);
+  border-radius: 5px;
+  text-decoration: none;
+  background-image: linear-gradient(tomato, orange);
+  padding: 10px 20px;
+}
+/* spacific css */
+#dawon {
+  padding: 80px 20px;
+}
+#stay {
+  border-left: 3px solid rgb(145, 68, 68);
+  border-radius: 3px;
+}
