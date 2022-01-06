@@ -1,4 +1,8 @@
 /* * */
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -17,24 +21,58 @@ h1 {
 }
 .half-widht {
   width: 100%;
+  padding: 20px;
 }
 .flexibl img {
   width: 100%;
-
-  margin-bottom: 15%;
 }
-.link {
+.btn {
+  display: inline-block;
   color: rgb(248, 244, 244);
   border-radius: 5px;
   text-decoration: none;
   background-image: linear-gradient(tomato, orange);
   padding: 10px 20px;
 }
+
 /* spacific css */
 #dawon {
   padding: 80px 20px;
 }
+#dawon > * {
+  margin-bottom: 1.6rem;
+}
 #stay {
   border-left: 3px solid rgb(145, 68, 68);
   border-radius: 3px;
+}
+#mission {
+  text-align: center;
+}
+#illustrator-first {
+  margin: 10px;
+  padding: 30px;
+  background-image: url(images/shape-4.png);
+}
+#illustrator-first img {
+  height: 140px;
+  width: 140px;
+}
+#illustrator-second {
+  margin: 10px;
+  padding: 30px;
+  background-image: url(images/shape-5.png);
+}
+#illustrator-second img {
+  height: 140px;
+  width: 140px;
+}
+#illustrator-thrid {
+  margin: 10px;
+  padding: 30p;
+  background-image: url(images/shape-6.png);
+}
+#illustrator-thrid img {
+  height: 140px;
+  width: 140px;
 }
